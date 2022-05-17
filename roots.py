@@ -44,5 +44,4 @@ def main():
         #printing the imaginary roots in the correct form
         return(print("z1= {0}+{1}i, z2={0}+{2}i".format(a1,b1,b2)))
 
-
 main()
