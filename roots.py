@@ -23,7 +23,10 @@ def main():
 
     #case 1: when both roots are real1
 
-    if dis>0:
+    if a==0:
+        return(print("Error: equation is not quadratic if a=0"))
+
+    elif dis>0:
         x1= round((-b+math.sqrt(dis))/(2*a), 2)
         x2= round((-b-math.sqrt(dis))/(2*a), 2)
         return(print("x1=",x1, "x2=",x2))
